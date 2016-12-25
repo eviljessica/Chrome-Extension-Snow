@@ -1,0 +1,87 @@
+body {
+
+}
+
+@-webkit-keyframes fall {
+	100% {transform: translate(0, 100vh);}
+}
+
+[class^="flake"] {
+	z-index: 50;
+	position: absolute;
+	top: 0;
+	background: white;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	-webkit-animation-name: fall;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.flake0 {
+	left: 5%;
+	-webkit-animation-duration: 25s;
+	-webkit-animation-delay: 1s;
+	border: 1px solid gray;
+}
+
+.flake1 {
+	left: 12%;
+	-webkit-animation-duration: 15s;
+	border: 1px solid green;
+}
+
+.flake2 {
+	left: 20%;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-delay: 4s;
+	border: 1px solid red;
+}
+
+.flake3 {
+	left: 40%;
+	-webkit-animation-duration: 27s;
+	-webkit-animation-delay: 2s;
+	border: 1px solid gray;
+}
+
+.flake4 {
+	left: 49%;
+	-webkit-animation-duration: 24s;
+	border: 1px solid green;
+}
+
+.flake5 {
+	left: 57%;
+	-webkit-animation-duration: 33s;
+	-webkit-animation-delay: 1s;
+	border: 1px solid gray;
+}
+
+.flake6 {
+	left: 68%;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-delay: 3s;
+	border: 1px solid red;
+}
+
+.flake7 {
+	left: 73%;
+	-webkit-animation-duration: 26s;
+	-webkit-animation-delay: 4s;
+	border: 1px solid gray;
+}
+
+.flake8 {
+	left: 88%;
+	-webkit-animation-duration: 21s;
+	border: 1px solid green;
+}
+
+.flake9 {
+	left: 95%;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-delay: 1s;
+	border: 1px solid red;
+}
+
